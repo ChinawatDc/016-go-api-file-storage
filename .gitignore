@@ -1,0 +1,66 @@
+# =========================
+# Go build outputs
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.cover
+*.cov
+*.log
+bin/
+dist/
+build/
+tmp/
+temp/
+
+# Go workspace (ถ้าใช้)
+go.work
+go.work.sum
+
+# Vendor (เปิดใช้เฉพาะถ้าคุณ vendor จริง)
+# vendor/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# =========================
+# OS / misc
+# =========================
+*.swp
+*.swo
+
+# =========================
+# Docker volumes / local data
+# =========================
+**/pgdata/
+**/postgres-data/
+**/data/
+
+# =========================
+# Optional: Air (live reload)
+# =========================
+.air.toml
+
+# Optional: Coverage folder
+coverage/
+
+# Optional: Uploads folder
+/uploads/*
